@@ -3,7 +3,7 @@ import csv
 import os
 
 # Placeholder API key - Replace with your actual Gemini API key if you have one
-API_KEY = "AIzaSyCIjxuTpS1CoIaU34fiXkcPwkoGwq72e2A"  # Replace with your actual API key if you want to run this with a real API key
+API_KEY = "ENTER_YOUR_API_KEY"  # Replace with your actual API key if you want to run this with a real API key
 genai.configure(api_key=API_KEY)
 
 def extract_resident_schedule_from_image(image_path):
